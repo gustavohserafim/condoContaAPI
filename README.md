@@ -20,3 +20,10 @@ cd condoContaAPI
 source .venv/Scripts/activate
 
 pytest .\test_api.py
+
+# Tecnologias
+Python 3.11
+Flask
+SQLite
+SQLAlchemy
+pytest
