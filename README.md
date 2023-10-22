@@ -1,29 +1,29 @@
 # condoContaAPI
 Para executar:
 
-ˋcd condoContaAPIˋ
-
-ˋpython -m venv .venvˋ
-
-ˋsource .venv/Scripts/activateˋ
-
-ˋpip install -r requirements.txtˋ
-
-ˋflask runˋ
+Criar e ativar venv
+```
+cd condoContaAPI
+python -m venv .venv
+source .venv/Scripts/activate
+pip install -r requirements.txt
+flask run
+```
 
 ## Testes
 
 em outro terminal:
-
-ˋcd condoContaAPIˋ
-
-ˋsource .venv/Scripts/activateˋ
-
-ˋpytest .\test_api.pyˋ
+```
+cd condoContaAPI
+source .venv/Scripts/activate
+pytest .\test_api.py
+```
 
 ## Tecnologias
+```
 Python 3.11
 Flask
 SQLite
 SQLAlchemy
 pytest
+```
